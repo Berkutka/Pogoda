@@ -1,0 +1,43 @@
+
+
+.nav-link:active {
+    background-color: #d63384;
+}
+
+.header{
+    background-color: #98dbef;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 670px;
+}
+
+.weather{
+    background-color: #7A956B;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 670px;
+    margin: auto 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.weather_loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_loading_img{
+    max-width: 200px;
+    position: center;
+}
+.width1{
+    min-width: 140px;
+}
+img{
+    max-width: 25px;
+
+}
+
