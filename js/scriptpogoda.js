@@ -67,7 +67,7 @@ console.log(t3);
 
     async function loadWeather(e) {
 
-    const server = 'https://api.open-meteo.com/v1/forecast?latitude=49.2517&longitude=26.5947&hourly=temperature_2m,apparent_temperature,windspeed_10m,precipitation,cloudcover&timezone=auto';
+    const server = 'https://api.open-meteo.com/v1/forecast?latitude=49.2517&longitude=26.5947&hourly=temperature_2m,apparent_temperature,cloudcover,windspeed_10m&timezone=Europe%2FMoscow';
     const response = await fetch(server,{
         method: 'GET',
     });
